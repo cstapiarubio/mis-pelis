@@ -1,1 +1,11 @@
-main.js
+$(document).ready(function(){
+	$(".ingreso").hide();
+	$("#login").click(function(event){
+  		event.preventDefault();
+		$(".ingreso").show();
+	});
+	$("#entrar").click(function(event){
+  		event.preventDefault();
+		$(".ingreso").hide();
+	});
+}
