@@ -21738,6 +21738,12 @@ mediatype: 0,
 runtime: "None"
 }
 ]
+
+main.js
+$(document).ready(function() {
+	$(".button-collapse").sideNav();
+});
+
 $(document).ready(function(){
 	$(".ingreso").hide();
 	$("#login").click(function(event){
@@ -21749,3 +21755,4 @@ $(document).ready(function(){
 		$(".ingreso").hide();
 	});
 }
+
