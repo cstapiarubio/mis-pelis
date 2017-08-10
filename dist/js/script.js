@@ -21739,3 +21739,6 @@ runtime: "None"
 }
 ]
 main.js
+$(document).ready(function() {
+	$(".button-collapse").sideNav();
+});
