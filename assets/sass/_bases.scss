@@ -3,7 +3,7 @@
 	padding:0;
 }
 
-body{
+/*body{
 	background-image: url('../img/tv.jpg');
 	background-repeat: no-repeat;
 	text-align: center;
@@ -11,4 +11,27 @@ body{
 	padding: 0; 
 	background-size: cover;
 	background-color: rgba(255, 255, 255, 0.5);
+}*/
+
+nav{
+	background-color: #026464;
+	height: 80px;
+	.brand-logo{
+		margin-top: 20px;
+    	font-size: 20px;
+    	font-weight: 200;
+	}
+	.lupa{
+		margin-right: 30px;
+	}
+}
+
+.play{
+	background-color: #00C3C3;
+}
+
+.btn-floating{
+	i{
+		color: black;
+	}
 }
