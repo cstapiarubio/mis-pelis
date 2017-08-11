@@ -20280,7 +20280,7 @@ summary: "This droll comedy focuses on Leslie Knope, a public employee with the 
 poster: "http://netflixroulette.net/api/posters/70143842.jpg",
 mediatype: 1,
 runtime: "21 min"
-}
+},
 {
 unit: 883,
 show_id: 70299043,
@@ -20294,7 +20294,7 @@ summary: "For over a century, people have been living behind barricades to block
 poster: "http://netflixroulette.net/api/posters/70299043.jpg",
 mediatype: 1,
 runtime: "24 min"
-}
+},
 {
 unit: 84,
 show_id: 60032563,
@@ -21736,14 +21736,7 @@ summary: "A tanker captain devises a plan for vengeance when his sister's husban
 poster: "http://netflixroulette.net/api/posters/70285692.jpg",
 mediatype: 0,
 runtime: "None"
-}
-]
-
-main.js
-$(document).ready(function() {
-	$(".button-collapse").sideNav();
-});
-
+}]
 $(document).ready(function(){
 	$(".ingreso").hide();
 	$("#login").click(function(event){
@@ -21755,4 +21748,6 @@ $(document).ready(function(){
 		$(".ingreso").hide();
 	});
 }
-
+$(document).ready(function() {
+	$(".button-collapse").sideNav();
+});

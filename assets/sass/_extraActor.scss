@@ -1,5 +1,22 @@
-section.row.actor{
-	margin: 0;
-	padding: 0;
-	width: 100%;
+section.actor{
+	.row.imgActor{
+		padding: 0;
+		width: 100%;
+		.col.s12{
+			background-color: black;
+    		height: 45vh;
+		}
+	}
+	.container{
+		.row{
+			.movieList{
+				.col.s6{
+					ul.center-align{
+						position: relative;
+    					display: grid;
+					}
+				}
+			}
+		}
+	}
 }
