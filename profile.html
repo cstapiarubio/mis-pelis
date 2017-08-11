@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mis Pelis</title>
+	<!--viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Fontawesome -->
+	<script src="https://use.fontawesome.com/b5fd719f9b.js"></script>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Raleway:300,400,600" rel="stylesheet">
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+	<!-- LOGO -->
+	<link rel="shortcut icon" href="dis/img/netflix.png">
+</head>
+<body>
+	<!-- NAvbar -->
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">PROFILE</a>
+				<a href="#!" class="right"><i class="material-icons lupa">search</i></a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">Movies</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="#">Movies</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- Datos -->
+	<section class="datos">
+		<div class="container">
+			<div class="row">
+				<div class="col s8 offset-s2 center">
+					<img class="img-profile" src="dist/img/profile-icon.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div id="contenedor" class="col s12 center text-datos">
+					<p>Username: <span class="username-profile">Juan2020</span></p> <!-- AQUÍ VA NICKNAME -->
+					<p>Name: <span class="name-profile">Juan Peréz</span></p><!-- AQUÍ VA NAME -->
+					<p>Country: <span class="name-profile">Chile</span></p><!-- AQUÍ VA PAIS -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- My Favorites -->
+	<section class="my-favorites">		
+		<div class="row">
+			<div class="col s12 center text-my-favorites">
+				<h6>MY FAVORITES</h6>
+			</div>
+		</div>
+		<div class="">	
+			<div class="row">
+				<!-- Caja Prueba JS RECORRE FAV  -->
+				<div class="col s6 center">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="http://netflixroulette.net/api/posters/70299043.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">show_title<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+				<!-- FIN CAJA  -->
+			</div>			
+		</div>
+	</section>
+	
+	<!--JS-->
+	<script src="dist/js/script.js"></script>
+</body>
+</html>
