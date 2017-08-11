@@ -21741,7 +21741,7 @@ runtime: "None"
 
 var miUrl = 'https://netflixroulette.net/api/api.php?director=';
 
-var directores = ['Quentin%20Tarantino','Stephen%20King','Tim%20Burton','Woody%20Allen','Steven%20Spielberg'];
+var directores = ['Quentin%20Tarantino','Stephen%20King','Tim%20Burton','Woody%20Allen','Steven%20Spielberg', 'Chris%20Sanders', 'Peter%20Jackson', 'Jimmy%20Murakami', 'Simon%20West', 'Roger%20Donaldson', 'Joel%20Schumacher', 'Scott%20Walker', 'John%20Woo'];
 
 var callbacksPeli = function(ele){
     $.ajax({
@@ -21768,37 +21768,44 @@ var callbacksPeli = function(ele){
       var pelis = "";
       response.forEach(function(el){
         pelis += `
-        <li>
+              <hr>        
               <div class="container listado">  
                 <div class="row">  
                   <div class="col-sm-6 col-xs-6 pull-left" id="${el.show_id}">  
-                    <p class="element_titlepeli"><strong>  ${el.show_title} '</strong>'  ${el.release_year}  '|'  ${el.category}  '</p>'  
+                    <p class="text"><strong class="element_titlepeli">  ${el.show_title} </strong>  ${el.release_year}  |  ${el.category}  </p>  
                   </div> 
                   <div class="col-sm-6 col-xs-6 pull-right">  
-                    <button id="element_movie__btn__favorites" type="button" class="btn btn-danger">Add favorites</button>  
+                    <button id="element_movie__btn__favorites" type="button" class="btn">Add favorites</button>  
                   </div>  
-                </div>  
+                </div> 
                 <div class="row"> 
                   <div class="col">  
-                    <div class="col-sm-4 col-xs-4 pull-left">  
-                      <p class="element_movie__icon"><i class="fa fa-clock-o" aria-hidden="true"></i>   response.runtime  '</p>'  
+                    <div class="col s6 pull-left">  
+                      <p class="element_movie__icon"><i class="fa fa-clock-o" aria-hidden="true"></i> ${el.runtime} </p> 
+
                     </div>  
-                    <div class="col-sm-4 col-xs-4 center-block">  
+                    <div class="col s6 center-block">  
                       <p class="element_movie__icon">  
                         <i class="fa fa-film" aria-hidden="true"></i>  
-                        response.director  
-                      </p>  
+                        ${el.director}  
+                      </p> 
                     </div>  
                     <div class="col-sm-4 col-xs-4 pull-right">  
-                 
+                      <i class="material-icons star">star</i>
+                      <i class="material-icons star">star</i>
+                      <i class="material-icons star">star</i>
+                      <i class="material-icons star">star_half</i>
+                      <i class="material-icons star">star_border</i>
                     </div> 
                   </div> 
                 </div> 
               </div>  
-            </li>)
+            
       `; 
       });
       $("#mostrar-pelis").html(pelis);
     });  
   }
+
+
 callbacksPeli(directores[0])
