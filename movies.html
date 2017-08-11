@@ -5,23 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>mis-pelis</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
-	<nav>
-        <div class="nav-wrapper nav-menu">
-           	<a href="#!" class="left"><i class="material-icons hamburguesa">dehaze</i>
-				<ul id="slide-out" class="side-nav">
-      				<li><a href="index.html">Home</a></li>
-      				<li><a href="profile.html">Profile</a></li>
-    			</ul>
-    			
-           	</a>
-            <a href="#!" class="brand-logo center">MOVIES</a>
-            <a href="#!" class="right"><i class="material-icons lupa">search</i></a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">MOVIES</a>
+				<a href="#!" class="right"><i class="material-icons lupa">search</i></a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">Movies</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="#">Movies</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
     <section class="peliculas">
 		<div class="container">
 			<div class="row">
