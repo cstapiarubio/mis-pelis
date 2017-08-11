@@ -11,6 +11,11 @@
 	padding: 0; 
 	background-size: cover;
 	background-color: rgba(255, 255, 255, 0.5);
+
+	#081212 
+#026464 
+#00C3C3 
+ESTE : #E5E5E5
 }*/
 
 nav{
@@ -35,3 +40,69 @@ nav{
 		color: black;
 	}
 }
+
+.container-fluid{
+	.row{
+		margin-bottom: -45px;
+		.col{
+			padding: 0px;
+			.imagen-pelicula{
+				margin-top: 20px;
+				margin-left: 50px;
+			}
+			.btn-large{
+				position: relative;
+    			bottom: 55px;
+    			left: 85px;
+    			width: 90px;
+    			height: 90px;
+    			z-index: 9999;
+    			i{
+					margin-top: 15px;
+    				font-size: 50px;
+    			}
+			}
+			.estrellas{
+				width: 110px;
+    			margin-left: 10px;
+    			margin-top: 10px;
+			}
+			.btn-fav{
+				margin-top: 10px;
+				margin-left: 30px;
+    			width: 150px;
+    			padding: 0px;
+    			background-color: #026464;
+			}
+			h5{
+				color: #026464;
+				font-weight: bold;
+				font-size: 20px;
+    			margin-left: 10px;
+    			margin-top: 35px;
+			}
+			p{
+				margin-left: 10px;
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+			h6{
+				color: #026464;
+				margin-left: 10px;
+				font-size: 20px;
+			}
+			ul{
+				li{
+					margin-left: 10px;
+					color: #00C3C3;
+				}
+			}
+		}
+	}
+	.play{
+		height: 100px;
+	}
+}
+
+
+
