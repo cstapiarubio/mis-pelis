@@ -1,0 +1,63 @@
+var miUrl = 'https://netflixroulette.net/api/api.php?director=';
+
+var directores = ['Quentin%20Tarantino','Stephen%20King','Tim%20Burton','Woody%20Allen','Steven%20Spielberg'];
+
+var callbacksPeli = function(ele){
+    $.ajax({
+      url: miUrl + ele,
+      type: 'GET',
+      dataType: 'json',
+    })
+    .done(function(response){    
+      var elId = response.show_id; 
+      var elTitulo = response.show_title; 
+      var elLanzamiento = response.release_year; 
+      var elrating = response.release_year; 
+      var elcategory = response.category;
+      var elDirector = response.diector;  
+      var elRuntime= response.runtime; 
+      var laImg = response.poster;
+
+
+      //Camnbiar HTML como se veria en pantalla
+      /*
+        La caja debe tener un id que se llama de la variable de arriba
+      */
+
+      var pelis = "";
+      response.forEach(function(el){
+        pelis += `
+        <li>
+              <div class="container listado">  
+                <div class="row">  
+                  <div class="col-sm-6 col-xs-6 pull-left" id="${el.show_id}">  
+                    <p class="element_titlepeli"><strong>  ${el.show_title} '</strong>'  ${el.release_year}  '|'  ${el.category}  '</p>'  
+                  </div> 
+                  <div class="col-sm-6 col-xs-6 pull-right">  
+                    <button id="element_movie__btn__favorites" type="button" class="btn btn-danger">Add favorites</button>  
+                  </div>  
+                </div>  
+                <div class="row"> 
+                  <div class="col">  
+                    <div class="col-sm-4 col-xs-4 pull-left">  
+                      <p class="element_movie__icon"><i class="fa fa-clock-o" aria-hidden="true"></i>   response.runtime  '</p>'  
+                    </div>  
+                    <div class="col-sm-4 col-xs-4 center-block">  
+                      <p class="element_movie__icon">  
+                        <i class="fa fa-film" aria-hidden="true"></i>  
+                        response.director  
+                      </p>  
+                    </div>  
+                    <div class="col-sm-4 col-xs-4 pull-right">  
+                 
+                    </div> 
+                  </div> 
+                </div> 
+              </div>  
+            </li>)
+      `; 
+      });
+      $("#mostrar-pelis").html(pelis);
+    });  
+  }
+callbacksPeli(directores[0])

@@ -763,7 +763,11 @@ rating: "3.4",
 category: "Horror Movies",
 show_cast: "Johnny Depp, Frank Langella, Lena Olin, Emmanuelle Seigner, Barbara Jefford, Jack Taylor, José López Rodero, Tony Amoni, James Russo, Willy Holt",
 director: "Roman Polanski",
+
+summary: "An international search for a rare copy of a demonic tome, 'The Nine Gates of the Shadow Kingdom,' brings an unscrupulous book dealer deep into a world of murder, double-dealing and Satanic worship in director Roman Polanski's gothic mystery.",
+
 summary: "An international search for a rare copy of a demonic tome, 'The Nine Gates of the Shadow Kingdom', brings an unscrupulous book dealer deep into a world of murder, double-dealing and Satanic worship in director Roman Polanski's gothic mystery.",
+
 poster: "http://netflixroulette.net/api/posters/60000200.jpg",
 mediatype: 0,
 runtime: "133 min"
@@ -987,7 +991,11 @@ rating: "3.5",
 category: "Action & Adventure",
 show_cast: "Clint Eastwood, George Kennedy, Jack Cassidy, Vonetta McGee",
 director: "Clint Eastwood",
+
+summary: "Clint Eastwood directs and stars in this action adventure as a former hit man summoned from retirement to 'sanction' (assassinate) an enemy spy. With government secrets stolen and a U.S. operative murdered, Jonathan Hemlock (Eastwood) must join a three-man climbing party scaling Switzerland's Eiger Mountain to eliminate the foreign spy among them. George Kennedy and Jack Cassidy also star in this thriller based on the novel by Trevanian.",
+
 summary: "Clint Eastwood directs and stars in this action adventure as a former hit man summoned from retirement to sanction (assassinate) an enemy spy. With government secrets stolen and a U.S. operative murdered, Jonathan Hemlock (Eastwood) must join a three-man climbing party scaling Switzerland's Eiger Mountain to eliminate the foreign spy among them. George Kennedy and Jack Cassidy also star in this thriller based on the novel by Trevanian.",
+
 poster: "http://netflixroulette.net/api/posters/470781.jpg",
 mediatype: 0,
 runtime: "123 min"
@@ -1295,7 +1303,11 @@ rating: "3.2",
 category: "Comedies",
 show_cast: "Michael J. Willett, Paul Iacono, Sasha Pieterse, Andrea Bowen, Xosha Roquemore, Molly Tarlov, Evanna Lynch, Joanna 'JoJo' Levesque, Derek Mio, Mia Rose Frampton",
 director: "Darren Stein",
+
+summary: "When Tanner is outed as a school's only openly gay student, three popular girls engage in an epic fight to acquire him as their 'Gay Best Friend.'",
+
 summary: "When Tanner is outed as a school's only openly gay student, three popular girls engage in an epic fight to acquire him as their Gay Best Friend.",
+
 poster: "http://netflixroulette.net/api/posters/70274595.jpg",
 mediatype: 0,
 runtime: "92 min"
@@ -1351,7 +1363,11 @@ rating: "3.7",
 category: "Action & Adventure",
 show_cast: "Tatsuya Nakadai, Tsutomu Yamazaki, Kenichi Hagiwara, Jinpachi Nezu, Hideji Otaki, Daisuke Ryu, Masayuki Yui, Kaori Momoi, Mitsuko Baisho, Hideo Murota",
 director: "Akira Kurosawa",
+
+summary: "Three warlord clans are battling for control of medieval Japan. When the leader of the Takeda clan, Lord Shingen (Tatsuya Nakadai), is mortally wounded, he orders that his death be kept secret from his enemies. The clan searches for a 'shadow warrior,' an exact double, to take his place. Now, a thief named Kagemusha (Nakadai in a double role) must fight for an empire in this stunning film from legendary Japanese filmmaker Akira Kurosawa.",
+
 summary: "Three warlord clans are battling for control of medieval Japan. When the leader of the Takeda clan, Lord Shingen (Tatsuya Nakadai), is mortally wounded, he orders that his death be kept secret from his enemies. The clan searches for a shadow warrior, an exact double, to take his place. Now, a thief named Kagemusha (Nakadai in a double role) must fight for an empire in this stunning film from legendary Japanese filmmaker Akira Kurosawa.",
+
 poster: "http://netflixroulette.net/api/posters/70005243.jpg",
 mediatype: 0,
 runtime: "162 min"
