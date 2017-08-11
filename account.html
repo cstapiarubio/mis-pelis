@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<!--viewport-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mis Pelis</title>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Fontawesome -->
@@ -16,38 +16,57 @@
 	<link rel="shortcut icon" href="assets/img/netflix.png">
 </head>
 <body>
+	<!--NAV-->
+	<nav>
+		<div class="nav-wrapper nav-menu">
+			<a href="#!" class="left"><i class="material-icons hamburguesa">dehaze</i>
+				<ul id="slide-out" class="side-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="profile.html">Profile</a></li>
+				</ul>
+
+			</a>
+			<a href="#!" class="brand-logo center">CREATE ACCOUNT</a>
+			<a href="#!" class="right"><i class="material-icons lupa">search</i></a>
+		</div>
+	</nav>
+
+	<!--ACCOUNT-->
 	<div id="home" class="container">
 		<div class="row">
-			<div class="col s12">
-				<h1>MIS PELIS</h1>
+			<form id="formulario" class="col s12">
 				<div class="row">
 					<div class="input-field col s12">
-						<a id="login" class="waves-effect waves-light btn">Login</a>
+						<input id="first_name" type="text" class="validate">
+						<label for="first_name">Name</label>
 					</div>
-					<div class="ingreso col s12">
-						<div class="input-field col s12">
-							<input id="email" type="email" class="validate">
-							<label for="email">Email</label>
-						</div>
-						<div class="input-field col s12">
-							<input id="password" type="password" class="validate">
-							<label for="password">Password</label>
-						</div>
-						<div class="input-field col s12">
-						<a id="entrar" class="waves-effect waves-light btn">Entrar</a>
-						</div>
-					</div>	
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="username">Username</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="email" type="email" class="validate">
+						<label for="email">Email</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="country" type="text" class="validate">
+						<label>Country</label>
+					</div>
 				</div>
 				<div class="input-field col s12">
-					<a class="waves-effect waves-light btn">Create Account</a>
+					<a class="waves-effect waves-light btn">Create</a>
 				</div>
-				<p>Forgot Password?</p>
-			</div>
+			</form>
 		</div>	
 	</div>
-</div>
 
-<!--JS-->
-<script src="dist/js/script.js"></script>
+	<!--JS-->
+	<script src="dist/js/script.js"></script>
 </body>
 </html>
