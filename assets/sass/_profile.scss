@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+//#081212 
+//#026464 
+//#00C3C3 
+
+nav{
+	background-color: #026464;
+	height: 80px;
+	.brand-logo{
+		margin-top: 20px;
+    	font-size: 20px;
+    	font-weight: 200;
+	}
+	.lupa{
+		margin-right: 30px;
+	}
+}
+
+.datos{
+	padding: 20px 0;
+	background-color: #E5E5E5;
+	.img-profile{
+		width: 200px;
+		border-radius: 50%;
+		border: 5px solid #FFF;
+	}
+	.text-datos{
+		p{
+			font-size: 14px;
+			color: #026464;
+			font-weight: 600;
+			margin: 0;
+			span{
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+.my-favorites{
+	.text-my-favorites{
+		background-color: #081212;
+		color: #FFF;
+	}
+	.card-content {
+    	border-top: 4px solid #026464;
+    	padding: 10px 5px 5px 3px;
+    	span{
+    		font-size: 13px;
+    		font-weight: 600;
+    	}
+	}
+}
+
+/*
+.card .card-content {
+    border-top: 4px solid green;
+    padding: 10px 5px 5px 3px;
+}
+*/

@@ -21736,7 +21736,18 @@ summary: "A tanker captain devises a plan for vengeance when his sister's husban
 poster: "http://netflixroulette.net/api/posters/70285692.jpg",
 mediatype: 0,
 runtime: "None"
+<<<<<<< HEAD
 }]
+=======
+}
+]
+
+main.js
+$(document).ready(function() {
+	$(".button-collapse").sideNav();
+});
+
+>>>>>>> e6a1744e14862a23949c0356a90cda5e07b4f1fe
 $(document).ready(function(){
 	$(".ingreso").hide();
 	$("#login").click(function(event){
@@ -21748,3 +21759,4 @@ $(document).ready(function(){
 		$(".ingreso").hide();
 	});
 }
+
