@@ -21766,9 +21766,10 @@ $(document).ready(function(){
 		localStorage.country = $('#country').val();
 	}
 
+
 	/* validación de inputs*/
 	$('.crearCuenta').click(function() {
-  if ($('.validar').val().length == 0 || $('.validar').val().length ===""){
+  if ($('.validar').val().length === 0 || $('.validar').val().length ===""){
         alert('El campo esta vacío');
         return false;
     }
