@@ -58,4 +58,4 @@ Express
  - "materialize-css": "^0.100.1"
 
 ## Autores
-Camilia Saez, Amala Kamala, Vanessa Pellegrini, Carolina Tapia, 
+Camilia Saez, Amala Kamala, Vanessa Pellegrini, Carolina Tapia, Romina Torres.
