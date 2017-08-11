@@ -3,7 +3,12 @@
 	padding:0;
 }
 
-#home{
-	background-image: url('../dist/img/home.jpg');
-
+body{
+	background-image: url('../img/tv.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+	margin:0; 
+	padding: 0; 
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.5);
 }
