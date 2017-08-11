@@ -21775,7 +21775,7 @@ var callbacksPeli = function(ele){
                     <p class="text"><strong class="element_titlepeli">  ${el.show_title} </strong>  ${el.release_year}  |  ${el.category}  </p>  
                   </div> 
                   <div class="col-sm-6 col-xs-6 pull-right">  
-                    <button id="element_movie__btn__favorites" type="button" class="btn">Add favorites</button>  
+                    <a id="element_movie__btn__favorites" type="button" class="btn">Add favorites</a>  
                   </div>  
                 </div> 
                 <div class="row"> 
